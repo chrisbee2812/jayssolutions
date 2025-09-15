@@ -1,0 +1,28 @@
+{
+  "placeholderImages": [
+    {
+      "id": "carousel-1",
+      "description": "A moving truck being loaded with boxes.",
+      "imageUrl": "https://picsum.photos/seed/jayssolutions1/1200/800",
+      "imageHint": "moving truck"
+    },
+    {
+      "id": "carousel-2",
+      "description": "A team of movers carefully carrying a couch.",
+      "imageUrl": "https://picsum.photos/seed/jayssolutions2/1200/800",
+      "imageHint": "moving furniture"
+    },
+    {
+      "id": "carousel-3",
+      "description": "A happy family standing in front of their new home with moving boxes.",
+      "imageUrl": "https://picsum.photos/seed/jayssolutions3/1200/800",
+      "imageHint": "new home"
+    },
+    {
+        "id": "hero-background",
+        "description": "Wide shot of a moving truck on a suburban street.",
+        "imageUrl": "https://picsum.photos/seed/jayssolutions4/1920/1080",
+        "imageHint": "suburban street"
+    }
+  ]
+}
