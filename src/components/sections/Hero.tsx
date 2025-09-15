@@ -1,37 +1,32 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export default function Hero() {
-  const heroImage = PlaceHolderImages.find(p => p.id === 'hero-background');
-  
+    
   return (
-    <section className="relative w-full h-[60vh] min-h-[400px] flex items-center justify-center text-center text-white">
-        <Image 
-          src="/removals-truck.jpg"
-          alt="A moving truck on a suburban street"
-          fill
-          className="object-cover -z-10 brightness-[.4]"
-          data-ai-hint="A moving truck on a suburban street"
-          priority={true}
-        />
-      
-      <div className="container px-4 md:px-6">
-        <div className="max-w-3xl mx-auto space-y-4">
-          <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl font-headline text-shadow-lg">
-            Your Smooth Move Starts Here
-          </h1>
-          <p className="text-lg text-gray-200 md:text-xl text-shadow">
-            Jays Solutions offers reliable and efficient home removal services. Trust us to make your next move your best move.
-          </p>
-          <div>
+    <section id="home" className="relative h-[calc(100vh-4rem)] w-full flex items-center justify-center">
+            <Image
+                src="/removals-truck.jpg"
+                alt="Personal trainer with a client"
+                priority
+                fill
+                className="object-cover opacity-20"
+                data-ai-hint="fitness workout"
+            />
+            <div className="relative z-10 container mx-auto px-4 text-center text-foreground">
+                <h1 className="text-4xl font-extrabold tracking-tight font-headline sm:text-5xl md:text-6xl lg:text-7xl">
+                    Your Smooth Move Starts Here
+                </h1>
+                <p className="mt-6 max-w-3xl mx-auto text-lg md:text-xl">
+                    Jays Solutions offers reliable and efficient home removal services. Trust us to make your next move your best move.
+                </p>
+                <div>
             <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg transition-transform hover:scale-105">
               <Link href="#contact">Request a Quote</Link>
             </Button>
           </div>
-        </div>
-      </div>
-    </section>
+            </div>
+        </section>
   );
 }
