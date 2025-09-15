@@ -8,16 +8,15 @@ export default function Hero() {
   
   return (
     <section className="relative w-full h-[60vh] min-h-[400px] flex items-center justify-center text-center text-white">
-      {heroImage && (
         <Image 
-          src={heroImage.imageUrl} 
-          alt={heroImage.description}
+          src="/removals-truck.jpg"
+          alt="A moving truck on a suburban street"
           fill
           className="object-cover -z-10 brightness-[.4]"
-          data-ai-hint={heroImage.imageHint}
-          priority
+          data-ai-hint="A moving truck on a suburban street"
+          priority={true}
         />
-      )}
+      
       <div className="container px-4 md:px-6">
         <div className="max-w-3xl mx-auto space-y-4">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl font-headline text-shadow-lg">
