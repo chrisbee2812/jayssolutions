@@ -4,6 +4,7 @@ import Services from '@/components/sections/Services';
 import ImageCarousel from '@/components/sections/ImageCarousel';
 import Reviews from '@/components/sections/Reviews';
 import ContactForm from '@/components/sections/ContactForm';
+import ContactForm2 from '@/components/sections/ContactForm2';
 import Footer from '@/components/layout/Footer';
 
 export default function Home() {
@@ -15,7 +16,8 @@ export default function Home() {
         <Services />
         <ImageCarousel />
         <Reviews />
-        <ContactForm />
+        {/* <ContactForm /> */}
+        <ContactForm2 />
       </main>
       <Footer />
     </div>

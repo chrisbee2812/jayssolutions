@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Jays Solutions',
-  description: 'Your trusted partner for smooth and efficient home removals.',
+  title: 'Jays Solutions Removal Services',
+  description: 'Your trusted partner for smooth and efficient removal services.',
 };
 
 export default function RootLayout({
