@@ -19,7 +19,7 @@ export default function Hero() {
                     Your Smooth Move Starts Here
                 </h1>
                 <p className="mt-6 max-w-3xl font-bold mx-auto text-lg md:text-2xl pt-28 lg:pt-32 text-shadow-white-2xl">
-                    Jays Solutions offers reliable and efficient home removal services. Trust us to make your next move your best move.
+                    Jay's Solutions offers reliable and efficient home removal services. Trust us to make your next move your best move.
                 </p>
                 <div>
             <Button asChild size="lg" className="my-8 bg-accent font-bold tracking-wide text-accent-foreground hover:bg-accent/90 shadow-lg transition-transform hover:scale-105">

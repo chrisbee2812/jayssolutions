@@ -5,7 +5,7 @@ const services = [
   {
     icon: <Truck className="h-10 w-10 text-accent" aria-hidden="true" />,
     title: "Removals",
-    description: "Efficient and safe moving services within the country. We handle your belongings with utmost care.",
+    description: "Efficient and safe moving services nationwide. We handle your belongings with utmost care, with blankets and straps as standard.",
   },
   {
     icon: <Package className="h-10 w-10 text-accent" aria-hidden="true" />,
@@ -22,7 +22,7 @@ export default function Services() {
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">Our Services</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              We offer a packing service and a removals service to make your relocation seamless and stress-free.
+              Our fully insured two man team offer a removals and packing service to ensure your relocation is seamless and stress free.
             </p>
           </div>
         </div>
