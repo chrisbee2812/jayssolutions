@@ -36,15 +36,15 @@ export default function Footer() {
             </div>
             
             <div className="flex items-center gap-12">
-                <Link href="https://www.facebook.com/share/17CVsZu7Ge/" className="text-muted-foreground hover:text-foreground">
+                <Link href="https://www.facebook.com/share/17CVsZu7Ge/" className="text-muted-foreground hover:text-foreground" target="_blank">
                     <Facebook className="h-10 w-10" />
                     <span className="sr-only">Facebook</span>
                 </Link>
-                <Link href="https://www.instagram.com/jayssolutions?igsh=c2piaG1tNHVucmtp&utm_source=qr" className="text-muted-foreground hover:text-foreground">
+                <Link href="https://www.instagram.com/jayssolutions?igsh=c2piaG1tNHVucmtp&utm_source=qr" className="text-muted-foreground hover:text-foreground" target="_blank">
                     <Instagram className="h-10 w-10" />
                     <span className="sr-only">Instagram</span>
                 </Link>
-                <Link href="https://nextdoor.co.uk/pages/jays-solutions-hayling-island-england/" className="text-muted-foreground hover:text-foreground">
+                <Link href="https://nextdoor.co.uk/pages/jays-solutions-hayling-island-england/" className="text-muted-foreground hover:text-foreground" target="_blank">
                     <NextdoorIcon className="h-10 w-10" />
                     <span className="sr-only">Nextdoor</span>
                 </Link>
