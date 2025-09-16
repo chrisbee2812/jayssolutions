@@ -18,7 +18,7 @@ export default function Hero() {
                 <h1 className="text-4xl font-extrabold tracking-tight font-headline sm:text-5xl md:text-6xl lg:text-7xl bg-white/5 inline-block px-4 py-2 rounded-md text-shadow-white-2xl">
                     Your Smooth Move Starts Here
                 </h1>
-                <p className="mt-6 max-w-3xl font-bold mx-auto text-lg md:text-xl bg-white/10 inline-block px-4 py-2 rounded-md text-shadow-white-2xl">
+                <p className="mt-6 max-w-3xl font-bold mx-auto text-lg md:text-2xl bg-white/10 inline-block px-4 py-2 rounded-md text-shadow-white-2xl">
                     Jays Solutions offers reliable and efficient home removal services. Trust us to make your next move your best move.
                 </p>
                 <div>

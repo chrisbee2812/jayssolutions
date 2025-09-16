@@ -1,28 +1,50 @@
+import Link from 'next/link';
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
 import { Star } from "lucide-react"
 
 const reviews = [
   {
-    name: "Sarah L.",
-    location: "New York, NY",
-    quote: "Jays Solutions made our cross-country move a breeze. The team was professional, efficient, and handled all of our belongings with care. Highly recommend!",
+    name: "jarvo80",
+    location: "Hayling Island",
+    quote: "Highly recommend, our driver John and his partner Joe went above and beyondto help us with our move which allowed the process of moving to be much easier. Friendly, reliable and a very positive attitude!",
     rating: 5,
-    initials: "SL",
+    initials: "JO",
   },
   {
-    name: "Michael B.",
-    location: "Austin, TX",
-    quote: "The best moving experience I've ever had. From packing to unloading, everything was seamless. The crew was friendly and incredibly hardworking.",
+    name: "Cust68ab",
+    location: "",
+    quote: "Brilliant thank you",
     rating: 5,
-    initials: "MB",
+    initials: "AB",
   },
   {
-    name: "Emily C.",
-    location: "Chicago, IL",
-    quote: "I was so stressed about moving, but Jays Solutions took care of everything. Their packing service is a lifesaver. Worth every penny for the peace of mind.",
+    name: "Pippacde",
+    location: "",
+    quote: "Both were absolutely amazing, lovely guys, careful with our stuff and communicative throughout the process.",
     rating: 5,
-    initials: "EC",
+    initials: "PC",
+  },
+  {
+    name: "Ilanakar",
+    location: "Hayling Island",
+    quote: "Great service, kept me informed all the way through, took great care of my belongings. Would highly recommend.",
+    rating: 5,
+    initials: "I",
+  },
+  {
+    name: "Gkmgkm",
+    location: "",
+    quote: "John and Joe were fantastic. Definitely helped to reduce stress on the day.",
+    rating: 5,
+    initials: "G",
+  },
+  {
+    name: "Cust68a9",
+    location: "Hayling",
+    quote: "John arrived at the time he said he was coming. Very helpful and careful at loading the van and the same at unloading the van.",
+    rating: 5,
+    initials: "",
   },
 ]
 
@@ -34,7 +56,13 @@ export default function Reviews() {
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">What Our Customers Say</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              We pride ourselves on providing a five-star moving experience.
+              We pride ourselves on providing a five-star moving experience. Many of these reviews can be found at{" "}
+              <Link href="https://www.anyvan.com/" className="text-muted-foreground hover:text-foreground">
+                 www.anyvan.com
+              </Link> and{" "} 
+              <Link href="https://nextdoor.co.uk/pages/jays-solutions-hayling-island-england/" className="text-muted-foreground hover:text-foreground">
+                    Nextdoor
+              </Link>.
             </p>
           </div>
         </div>

@@ -36,7 +36,7 @@ export default function Footer() {
             </div>
             
             <div className="flex items-center gap-12">
-                <Link href="#" className="text-muted-foreground hover:text-foreground">
+                <Link href="https://www.facebook.com/share/17CVsZu7Ge/" className="text-muted-foreground hover:text-foreground">
                     <Facebook className="h-10 w-10" />
                     <span className="sr-only">Facebook</span>
                 </Link>
@@ -44,7 +44,7 @@ export default function Footer() {
                     <Instagram className="h-10 w-10" />
                     <span className="sr-only">Instagram</span>
                 </Link>
-                <Link href="#" className="text-muted-foreground hover:text-foreground">
+                <Link href="https://nextdoor.co.uk/pages/jays-solutions-hayling-island-england/" className="text-muted-foreground hover:text-foreground">
                     <NextdoorIcon className="h-10 w-10" />
                     <span className="sr-only">Nextdoor</span>
                 </Link>
