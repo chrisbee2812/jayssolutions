@@ -7,18 +7,18 @@ export default function Hero() {
   return (
     <section id="home" className="relative h-[calc(100vh-4rem)] w-full flex items-center justify-center">
             <Image
-                src="/removals-truck.jpg"
+                src="/van2.webp"
                 alt="Jay's solutions removals truck"
                 priority
                 fill
-                className="object-cover opacity-60"
+                className="object-cover opacity-20"
                 data-ai-hint="Jay's solutions removals truck"
             />
             <div className="relative z-10 container mx-auto px-4 text-center text-foreground">
-                <h1 className="text-4xl font-extrabold tracking-tight font-headline sm:text-5xl md:text-6xl lg:text-7xl text-shadow-white-2xl">
+                <h1 className="text-4xl font-extrabold tracking-tight font-headline sm:text-5xl md:text-6xl lg:text-7xl bg-white/5 inline-block px-4 py-2 rounded-md text-shadow-white-2xl">
                     Your Smooth Move Starts Here
                 </h1>
-                <p className="mt-6 max-w-3xl mx-auto text-lg md:text-xl text-shadow-white-2xl">
+                <p className="mt-6 max-w-3xl font-bold mx-auto text-lg md:text-xl bg-white/10 inline-block px-4 py-2 rounded-md text-shadow-white-2xl">
                     Jays Solutions offers reliable and efficient home removal services. Trust us to make your next move your best move.
                 </p>
                 <div>
