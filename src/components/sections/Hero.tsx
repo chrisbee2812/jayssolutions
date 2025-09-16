@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section id="home" className="relative h-[calc(100vh-4rem)] w-full flex items-center justify-center">
             <Image
-                src="/van2.webp"
+                src="/van3.webp"
                 alt="Jay's solutions removals truck"
                 priority
                 fill
