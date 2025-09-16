@@ -12,7 +12,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b bg-headerbackground">
       <div className="container flex h-16 md:h-32 items-center md:space-x-8">
         <Link href="/" className="mr-6 flex items-center space-x-2 md:space-x-4">
           <Image
@@ -24,7 +24,6 @@ export default function Header() {
               className="object-cover"
               data-ai-hint="Jay's solutions removals truck"
           />
-          {/* <Truck className="h-6 w-6 text-primary md:h-16 md:w-24" /> */}
           <span className="font-bold text-base md:text-4xl">Jay's Solutions</span>
         </Link>
         <nav className="hidden items-center space-x-12 text-3xl font-medium md:flex">

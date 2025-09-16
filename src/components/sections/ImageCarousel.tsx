@@ -14,7 +14,7 @@ import Autoplay from "embla-carousel-autoplay"
 export default function ImageCarousel() {
   const carouselImages = PlaceHolderImages.filter(p => p.id.startsWith('carousel-'));
   return (
-    <section id="carousel" className="w-full py-8 bg-muted/50">
+    <section id="carousel" className="w-full pb-8 pt-32 bg-muted/50">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">Happy Moves</h2>
