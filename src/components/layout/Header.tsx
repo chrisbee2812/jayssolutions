@@ -21,7 +21,16 @@ export default function Header() {
               priority
               width={160}
               height={160}
-              className="object-cover"
+              className="object-cover hidden md:block"
+              data-ai-hint="Jay's solutions removals truck"
+          />
+          <Image
+              src="/jslogo.png"
+              alt="Jay's solutions removals truck"
+              priority
+              width={120}
+              height={120}
+              className="object-cover md:hidden"
               data-ai-hint="Jay's solutions removals truck"
           />
           <span className="font-bold text-base md:text-4xl">Jay's Solutions</span>
@@ -48,7 +57,16 @@ export default function Header() {
             <SheetContent side="right">
               <nav className="grid gap-6 text-lg font-medium mt-8">
                 <Link href="/" className="flex items-center gap-2 text-lg font-semibold">
-                  <Truck className="h-6 w-6 text-primary" />
+                  <Image
+                      src="/jslogo.png"
+                      alt="Jay's solutions removals truck"
+                      priority
+                      width={120}
+                      height={120}
+                      sizes="(min-width: 768px) 160px, 160px (max-width: 767px) 120px, 120px"
+                      className="object-cover"
+                      data-ai-hint="Jay's solutions removals truck"
+                  />
                   <span>Jays Solutions</span>
                 </Link>
                 {navLinks.map(link => (
