@@ -11,7 +11,7 @@ export default function Hero() {
                 alt="Jay's solutions removals truck"
                 priority
                 fill
-                className="object-cover opacity-20"
+                className="object-cover opacity-60"
                 data-ai-hint="Jay's solutions removals truck"
             />
             <div className="relative z-10 container mx-auto px-4 text-center text-foreground">
