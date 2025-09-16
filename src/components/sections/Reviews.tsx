@@ -6,7 +6,7 @@ import { Star } from "lucide-react"
 const reviews = [
   {
     name: "jarvo80",
-    location: "Hayling Island",
+    location: "",
     quote: "Highly recommend, our driver John and his partner Joe went above and beyondto help us with our move which allowed the process of moving to be much easier. Friendly, reliable and a very positive attitude!",
     rating: 5,
     initials: "JO",
@@ -27,7 +27,7 @@ const reviews = [
   },
   {
     name: "Ilanakar",
-    location: "Hayling Island",
+    location: "",
     quote: "Great service, kept me informed all the way through, took great care of my belongings. Would highly recommend.",
     rating: 5,
     initials: "I",
@@ -41,7 +41,7 @@ const reviews = [
   },
   {
     name: "Cust68a9",
-    location: "Hayling",
+    location: "",
     quote: "John arrived at the time he said he was coming. Very helpful and careful at loading the van and the same at unloading the van.",
     rating: 5,
     initials: "",
