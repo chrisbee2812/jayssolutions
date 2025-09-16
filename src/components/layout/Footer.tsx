@@ -26,24 +26,30 @@ export default function Footer() {
     <footer className="border-t">
       <div className="container mx-auto py-6 px-4 md:px-6">
         <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
-            <p className="text-sm text-muted-foreground">
+            <div>
+              <p className="text-sm text-muted-foreground">
                 &copy; {year} Jays Solutions. All rights reserved.
-            </p>
-            <div className="flex items-center gap-4">
+              </p>
+              <p className="text-sm text-muted-foreground">
+                Website created by <Link href="https://www.bickrs.com/" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground">Chris Bicknell</Link>.
+              </p>
+            </div>
+            
+            <div className="flex items-center gap-12">
                 <Link href="#" className="text-muted-foreground hover:text-foreground">
-                    <Facebook className="h-5 w-5" />
+                    <Facebook className="h-10 w-10" />
                     <span className="sr-only">Facebook</span>
                 </Link>
                 <Link href="#" className="text-muted-foreground hover:text-foreground">
-                    <Instagram className="h-5 w-5" />
+                    <Instagram className="h-10 w-10" />
                     <span className="sr-only">Instagram</span>
                 </Link>
                 <Link href="#" className="text-muted-foreground hover:text-foreground">
-                    <NextdoorIcon className="h-5 w-5" />
+                    <NextdoorIcon className="h-10 w-10" />
                     <span className="sr-only">Nextdoor</span>
                 </Link>
             </div>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-lg text-muted-foreground">
                 Your trusted moving partner.
             </p>
         </div>

@@ -14,12 +14,12 @@ import Autoplay from "embla-carousel-autoplay"
 export default function ImageCarousel() {
   const carouselImages = PlaceHolderImages.filter(p => p.id.startsWith('carousel-'));
   return (
-    <section id="carousel" className="w-full py-12 md:py-16 lg:py-20 bg-muted/50">
+    <section id="carousel" className="w-full py-8 bg-muted/50">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center mb-8">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">Happy Moves</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              See some of our successful moves and happy customers.
+              We take pride in providing a professional and reliable moving service.
             </p>
         </div>
         <Carousel 
@@ -27,7 +27,7 @@ export default function ImageCarousel() {
             opts={{ loop: true }}
             plugins={[
                 Autoplay({
-                  delay: 4000,
+                  delay: 3000,
                   stopOnInteraction: true,
                 }),
               ]}
@@ -36,16 +36,17 @@ export default function ImageCarousel() {
             {carouselImages.map((image, index) => (
               <CarouselItem key={index}>
                 <div className="p-1">
-                  <Card className="overflow-hidden">
+                  <Card className="overflow-hidden bg-background">
                     <CardContent className="relative flex aspect-video items-center justify-center p-0">
                       <Image
                         src={image.imageUrl}
                         alt={image.description}
                         width={1200}
                         height={800}
-                        className="rounded-lg object-cover"
+                        className="fixed object-cover opacity-80"
                         data-ai-hint={image.imageHint}
                       />
+                      <p className="relative text-5xl font-bold text-shadow-white">{image.imageText}</p>
                     </CardContent>
                   </Card>
                 </div>

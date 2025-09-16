@@ -16,6 +16,12 @@ export default {
       },
     },
     extend: {
+      textShadow: {
+        'white': '0 0 8px rgba(255, 255, 255, 1)',
+        'white-lg': '0 0 8px rgba(255, 255, 255, 1)',
+        'white-xl': '0 0 16px rgba(255, 255, 255, 1)',
+        'white-2xl': '0 0 24px rgba(255, 255, 255, 1)',
+      },
       fontFamily: {
         body: ['PT Sans', 'sans-serif'],
         headline: ['PT Sans', 'sans-serif'],
@@ -102,5 +108,7 @@ export default {
       },
     },
   },
-  plugins: [require('tailwindcss-animate')],
+  plugins: [require('tailwindcss-animate'),
+    require('tailwindcss-textshadow'),
+  ],
 } satisfies Config;

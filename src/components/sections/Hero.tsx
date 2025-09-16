@@ -8,21 +8,21 @@ export default function Hero() {
     <section id="home" className="relative h-[calc(100vh-4rem)] w-full flex items-center justify-center">
             <Image
                 src="/removals-truck.jpg"
-                alt="Personal trainer with a client"
+                alt="Jay's solutions removals truck"
                 priority
                 fill
                 className="object-cover opacity-20"
-                data-ai-hint="fitness workout"
+                data-ai-hint="Jay's solutions removals truck"
             />
             <div className="relative z-10 container mx-auto px-4 text-center text-foreground">
-                <h1 className="text-4xl font-extrabold tracking-tight font-headline sm:text-5xl md:text-6xl lg:text-7xl">
+                <h1 className="text-4xl font-extrabold tracking-tight font-headline sm:text-5xl md:text-6xl lg:text-7xl text-shadow-white-2xl">
                     Your Smooth Move Starts Here
                 </h1>
-                <p className="mt-6 max-w-3xl mx-auto text-lg md:text-xl">
+                <p className="mt-6 max-w-3xl mx-auto text-lg md:text-xl text-shadow-white-2xl">
                     Jays Solutions offers reliable and efficient home removal services. Trust us to make your next move your best move.
                 </p>
                 <div>
-            <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 shadow-lg transition-transform hover:scale-105">
+            <Button asChild size="lg" className="my-8 bg-accent font-bold tracking-wide text-accent-foreground hover:bg-accent/90 shadow-lg transition-transform hover:scale-105">
               <Link href="#contact">Request a Quote</Link>
             </Button>
           </div>

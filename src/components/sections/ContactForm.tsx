@@ -49,7 +49,7 @@ export default function ContactForm() {
   }, [state, toast]);
 
   return (
-    <section id="contact" className="w-full py-12 md:py-16 lg:py-20 bg-secondary">
+    <section id="contact" className="w-full py-8 bg-secondary">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">

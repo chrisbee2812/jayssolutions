@@ -3,26 +3,23 @@
     {
       "id": "carousel-1",
       "description": "A moving truck being loaded with boxes.",
-      "imageUrl": "https://picsum.photos/seed/jayssolutions1/1200/800",
-      "imageHint": "moving truck"
+      "imageUrl": "/package1.webp",
+      "imageHint": "moving truck",
+      "imageText": "Take advantage of our packing"
     },
     {
       "id": "carousel-2",
       "description": "A team of movers carefully carrying a couch.",
-      "imageUrl": "https://picsum.photos/seed/jayssolutions2/1200/800",
-      "imageHint": "moving furniture"
+      "imageUrl": "/removals2.webp",
+      "imageHint": "professional movers",
+      "imageText": "and removal services"
     },
     {
       "id": "carousel-3",
       "description": "A happy family standing in front of their new home with moving boxes.",
-      "imageUrl": "https://picsum.photos/seed/jayssolutions3/1200/800",
-      "imageHint": "new home"
-    },
-    {
-        "id": "hero-background",
-        "description": "Wide shot of a moving truck on a suburban street.",
-        "imageUrl": "https://picsum.photos/seed/jayssolutions4/1920/1080",
-        "imageHint": "suburban street"
-    }
+      "imageUrl": "/relaxed1.webp",
+      "imageHint": "happy family moving",
+      "imageText": "to make your move stress free"
+    }    
   ]
 }
