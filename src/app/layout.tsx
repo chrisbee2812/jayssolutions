@@ -1,7 +1,8 @@
 import type {Metadata} from 'next';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: "Stress-Free Moving & Removal Services in Hayling Island | Jay's",
@@ -31,6 +32,7 @@ export default function RootLayout({
         {children}
         <Toaster />
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
