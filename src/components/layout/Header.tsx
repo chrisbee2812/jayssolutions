@@ -33,7 +33,7 @@ export default function Header() {
               className="object-cover md:hidden"
               data-ai-hint="Jay's solutions removals truck"
           />
-          <span className="font-bold text-base md:text-4xl">Jay's Solutions</span>
+          <span className="font-bold text-2xl md:text-4xl">Jay's Solutions</span>
         </Link>
         <nav className="hidden items-center space-x-12 text-3xl font-medium md:flex">
           {navLinks.map(link => (
