@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Hero() {
     
   return (
-    <section id="home" className="relative h-[calc(100vh-4rem)] w-full flex items-center justify-center">
+    <section id="home" className="relative h-[calc(100vh-4rem)] w-full flex items-center justify-center bg-white">
             <Image
                 src="/van3.webp"
                 alt="Jay's solutions removals truck"
